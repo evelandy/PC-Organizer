@@ -1,1 +1,3 @@
 # PC Organizer
+This app will clean the clutter from your pc by moving your files to their respected folders organized by file extension type. The downloads folder will hold the .exe .msi and .iso files unless otherwise changed/specified. You can easily add or change locations by extension type. If you want to add a folder like 'Others' just copy a locator(the ones that have two of the same name in a row) and add: os.makedirs(PATH, exist_ok=True) to the end to create a directory, make sure to add an elif statement too with the proper extensions.
+If there are any questions feel free to ask otherwise Thanks for stopping by!
